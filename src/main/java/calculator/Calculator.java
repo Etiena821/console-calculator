@@ -92,13 +92,13 @@ public class Calculator {
         return a / b;
     }
 
-    private int getInputtedNumber(String number) {
-        outputString(number);
+    private int getInputtedNumber(String input) {
+        outputString(input);
         return scanner.nextInt();
     }
 
-    private void outputString(String string) {
-        System.out.println(string);
+    private void outputString(String value) {
+        System.out.println(value);
     }
 
 }
